@@ -1,0 +1,26 @@
+{
+  "name": "semantic-release-research",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/puncha/semantic-release-research.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puncha/semantic-release-research/issues"
+  },
+  "homepage": "https://github.com/puncha/semantic-release-research#readme",
+  "devDependencies": {
+    "semantic-release": "^6.3.2"
+  },
+  "release": {
+    "debug": false
+  }
+}
